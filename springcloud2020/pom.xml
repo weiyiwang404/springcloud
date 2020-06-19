@@ -7,6 +7,10 @@
   <groupId>org.example</groupId>
   <artifactId>springcloud2020</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>spring-cloud-payment8001</module>
+      <module>spring-cloud-order80</module>
+  </modules>
   <packaging>pom</packaging>
   <!--统一管理jar包版本-->
   <properties>
@@ -90,6 +94,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.0.1.RELEASE</version>
         <configuration>
           <fork>true</fork>
           <addResources>true</addResources>
