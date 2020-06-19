@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50440dad-92b5-4763-b4dd-9aac1d8b8221" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../../maven/my_repository" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom" timestamp="1592575143165">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1592575143165" />
+    <state width="1750" height="373" key="GridCell.Tab.0.center" timestamp="1592575143165">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1592575143165" />
+    <state width="1750" height="373" key="GridCell.Tab.0.left" timestamp="1592575143164">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1592575143164" />
+    <state width="1750" height="373" key="GridCell.Tab.0.right" timestamp="1592575143165">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state width="1750" height="373" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592575143165" />
+    <state x="397" y="185" key="SettingsEditor" timestamp="1592575044144">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="397" y="185" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1592575044144" />
+    <state x="431" y="169" key="new project wizard" timestamp="1592574700308">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="431" y="169" key="new project wizard/0.23.1792.1047@0.23.1792.1047" timestamp="1592574700308" />
+  </component>
+</project>
