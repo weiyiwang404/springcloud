@@ -15,7 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50440dad-92b5-4763-b4dd-9aac1d8b8221" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/dao/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-order80/src/main/java/com/weiyi/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-order80/src/main/java/com/weiyi/springcloud/controller/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/dao/IPaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/mapper/IPaymentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/dao/PaymentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/mapper/PaymentDao.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +32,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/java/com/weiyi/springcloud/dao/PaymentDao.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -74,12 +78,16 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.35172415" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springcloud2020/spring-cloud-payment8001/src/main/resources/mapper" />
     </key>
@@ -123,8 +131,18 @@
       <workItem from="1592622271343" duration="1267000" />
       <workItem from="1592623546427" duration="825000" />
       <workItem from="1592624402709" duration="638000" />
-      <workItem from="1592625144347" duration="309000" />
+      <workItem from="1592625144347" duration="720000" />
+      <workItem from="1592625943485" duration="154000" />
+      <workItem from="1592626259395" duration="882000" />
     </task>
+    <task id="LOCAL-00001" summary="common模块创建。">
+      <created>1592625543483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592625543483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,12 +163,22 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="common模块创建。" />
+    <option name="LAST_COMMIT_MESSAGE" value="common模块创建。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592622504695">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
     <state x="360" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1592622504695" />
+    <state x="711" y="355" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592625864929">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="711" y="355" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1047@0.23.1792.1047" timestamp="1592625864929" />
+    <state x="634" y="300" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592625774494">
+      <screen x="0" y="23" width="1792" height="1047" />
+    </state>
+    <state x="634" y="300" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1592625774494" />
     <state x="384" y="128" key="#项目结构" timestamp="1592622496784">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
@@ -163,38 +191,38 @@
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
     <state x="100" y="123" width="1592" height="847" key="DiffContextDialog/0.23.1792.1047@0.23.1792.1047" timestamp="1592625582028" />
-    <state width="1341" height="341" key="GridCell.Tab.0.bottom" timestamp="1592625132316">
+    <state width="1341" height="347" key="GridCell.Tab.0.bottom" timestamp="1592627199498">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132316" />
-    <state width="1341" height="341" key="GridCell.Tab.0.center" timestamp="1592625132316">
+    <state width="1341" height="347" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199498" />
+    <state width="1341" height="347" key="GridCell.Tab.0.center" timestamp="1592627199498">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132316" />
-    <state width="1341" height="341" key="GridCell.Tab.0.left" timestamp="1592625132316">
+    <state width="1341" height="347" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199498" />
+    <state width="1341" height="347" key="GridCell.Tab.0.left" timestamp="1592627199497">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132316" />
-    <state width="1341" height="341" key="GridCell.Tab.0.right" timestamp="1592625132316">
+    <state width="1341" height="347" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199497" />
+    <state width="1341" height="347" key="GridCell.Tab.0.right" timestamp="1592627199498">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132316" />
-    <state width="1341" height="341" key="GridCell.Tab.1.bottom" timestamp="1592625132317">
+    <state width="1341" height="347" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199498" />
+    <state width="1341" height="347" key="GridCell.Tab.1.bottom" timestamp="1592627199499">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.1.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132317" />
-    <state width="1341" height="341" key="GridCell.Tab.1.center" timestamp="1592625132317">
+    <state width="1341" height="347" key="GridCell.Tab.1.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199499" />
+    <state width="1341" height="347" key="GridCell.Tab.1.center" timestamp="1592627199499">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.1.center/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132317" />
-    <state width="1341" height="341" key="GridCell.Tab.1.left" timestamp="1592625132317">
+    <state width="1341" height="347" key="GridCell.Tab.1.center/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199499" />
+    <state width="1341" height="347" key="GridCell.Tab.1.left" timestamp="1592627199499">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.1.left/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132317" />
-    <state width="1341" height="341" key="GridCell.Tab.1.right" timestamp="1592625132317">
+    <state width="1341" height="347" key="GridCell.Tab.1.left/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199499" />
+    <state width="1341" height="347" key="GridCell.Tab.1.right" timestamp="1592627199499">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1341" height="341" key="GridCell.Tab.1.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592625132317" />
+    <state width="1341" height="347" key="GridCell.Tab.1.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592627199499" />
     <state width="1341" height="341" key="GridCell.Tab.2.bottom" timestamp="1592625101006">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
@@ -211,10 +239,10 @@
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
     <state width="1341" height="341" key="GridCell.Tab.2.right/0.23.1792.1047@0.23.1792.1047" timestamp="1592625101006" />
-    <state x="666" y="33" key="SettingsEditor" timestamp="1592625309219">
+    <state x="666" y="33" key="SettingsEditor" timestamp="1592625930346">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state x="666" y="33" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1592625309219" />
+    <state x="666" y="33" key="SettingsEditor/0.23.1792.1047@0.23.1792.1047" timestamp="1592625930346" />
     <state x="100" y="123" width="1592" height="847" key="VCS.FileHistoryDialog" timestamp="1592625582029">
       <screen x="0" y="23" width="1792" height="1047" />
     </state>

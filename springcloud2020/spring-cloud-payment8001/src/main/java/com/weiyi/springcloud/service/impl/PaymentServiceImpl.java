@@ -1,6 +1,6 @@
 package com.weiyi.springcloud.service.impl;
 
-import com.weiyi.springcloud.dao.PaymentDao;
+import com.weiyi.springcloud.dao.IPaymentDao;
 import com.weiyi.springcloud.model.PaymentModel;
 import com.weiyi.springcloud.service.IPaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 public class PaymentServiceImpl implements IPaymentService {
 
     @Autowired
-    PaymentDao paymentDao;
+    IPaymentDao paymentDao;
 
     @Override
     public int create (PaymentModel paymentModel) {
@@ -27,6 +27,6 @@ public class PaymentServiceImpl implements IPaymentService {
 
     @Override
     public PaymentModel getPaymentById (Long id) {
-        return paymentDao.getPayment(id);
+        return paymentDao.getPaymentById(id);
     }
 }
