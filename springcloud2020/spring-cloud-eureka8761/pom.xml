@@ -9,18 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-order80</artifactId>
-
+    <artifactId>spring-cloud-eureka8761</artifactId>
     <dependencies>
-        <!--自定义模块-->
+        <!-- eureka-server -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+        <!-- 引入自己定义的api通用包 -->
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>spring-cloud-common</artifactId>
             <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <!-- boot web actuator -->
         <dependency>
@@ -33,12 +33,6 @@
         </dependency>
         <!-- 通用配置 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
@@ -49,4 +43,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

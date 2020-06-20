@@ -1,0 +1,27 @@
+# Maven
+**/target/
+**/*.ser
+**/*.ec
+
+# IntelliJ Idea
+**/.idea/
+**/out/
+**/*.ipr
+**/*.iws
+**/*.iml
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+**/.metadata/
+**/*.mymetadata
+**/*.myumldata
+
+**/logs/**
+logs/**
+
+#ApprLawItems 研发阶段无需此包管理
+#**/ApprLawItems/
+
+rebel.xml
