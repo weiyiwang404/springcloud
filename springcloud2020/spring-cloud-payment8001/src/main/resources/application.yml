@@ -15,7 +15,9 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka8761.com:8761/eureka
-
+  instance:
+    instance-id: payment8001 # 服务注册含有主机名称，要想按照规范的要求，只暴露服务名，不要出现主机名。
+    prefer-ip-address: true  # 访问路径显示IP地址
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.weiyi.springcloud.model

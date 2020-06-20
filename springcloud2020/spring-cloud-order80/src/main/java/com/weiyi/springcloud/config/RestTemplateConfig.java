@@ -1,4 +1,4 @@
-package com.weiyi.springcloud.controller.config;
+package com.weiyi.springcloud.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

@@ -18,9 +18,15 @@
             <artifactId>spring-cloud-common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!--eureka-client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!--openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <!-- boot web actuator -->
         <dependency>
