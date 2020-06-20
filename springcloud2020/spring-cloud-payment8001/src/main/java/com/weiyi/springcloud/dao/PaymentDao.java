@@ -15,7 +15,7 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface PaymentDao {
 
-    // @Select("select * from payment where id = #{id}")
+    @Select("select * from payment where id = #{id}")
     PaymentModel getPayment (@Param("id") Long id);
 
     int create (PaymentModel paymentModel);
