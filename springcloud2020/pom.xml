@@ -12,6 +12,7 @@
       <module>spring-cloud-order80</module>
     <module>spring-cloud-common</module>
       <module>spring-cloud-eureka8761</module>
+      <module>spring-cloud-payment8002</module>
   </modules>
   <packaging>pom</packaging>
   <!--统一管理jar包版本-->

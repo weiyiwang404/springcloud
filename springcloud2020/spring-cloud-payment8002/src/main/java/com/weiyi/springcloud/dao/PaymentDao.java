@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Param;
  * @date 2020/6/20 12:03
  */
 @Mapper
-public interface IPaymentDao {
+public interface PaymentDao {
 
     PaymentModel getPaymentById(@Param("id") Long id);
 
