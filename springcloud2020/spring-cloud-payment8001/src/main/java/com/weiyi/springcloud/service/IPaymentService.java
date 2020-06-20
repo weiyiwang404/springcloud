@@ -11,8 +11,10 @@ import com.weiyi.springcloud.model.PaymentModel;
  */
 public interface IPaymentService {
 
-    int create (PaymentModel paymentModel);
+    int create(PaymentModel paymentModel);
 
-    PaymentModel getPaymentById (Long id);
+    PaymentModel getPaymentById(Long id);
+
+    public String paymentCircuitBreaker(Integer id);
 
 }

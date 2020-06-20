@@ -32,5 +32,14 @@ public class OrderController {
         return orderService.getPaymentById(id);
     }
 
+    @GetMapping("order/payment/ok")
+    public String ok(){
+        return orderService.ok();
+    }
+
+    @GetMapping("order/payment/timeout")
+    public String timeout(){
+        return orderService.timeout();
+    }
 
 }
