@@ -5,7 +5,7 @@ spring:
     name: cloud-payment-service
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource   # 当前数据源操作类型
-    url: jdbc:mysql://8.129.210.35:3306/db2019?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://8.129.210.35:3306/springcloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     username: root
     password: 123456
 
