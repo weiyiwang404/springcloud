@@ -16,6 +16,7 @@
       <module>spring-cloud-hystrix-dashboard9001</module>
       <module>spring-cloud-gatway9527</module>
       <module>spring-cloud-config-center3344</module>
+      <module>spring-cloud-config-client3355</module>
   </modules>
   <packaging>pom</packaging>
   <!--统一管理jar包版本-->
