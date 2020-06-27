@@ -14,7 +14,18 @@ spring:
             - springconfig
       ####读取分支
       label: master
-#rabbitmq相关配置
+  #rabbitmq相关配置
+  rabbitmq:
+    host: 8.129.210.35
+    port: 5672
+    username: guest
+    password: guest
+# rabbitMQ相关配置，暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
 
 #服务注册到eureka地址
 eureka:
