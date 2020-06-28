@@ -4,7 +4,7 @@ import com.weiyi.springcloud.model.PaymentModel;
 
 /**
  * @ClassName IPaymentService
- * @Description TODO
+ * @Description
  * @Author 16278
  * @Date 2020/6/15 10:54
  * @Version 1.0

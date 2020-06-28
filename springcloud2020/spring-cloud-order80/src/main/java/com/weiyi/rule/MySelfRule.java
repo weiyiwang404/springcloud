@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @ClassName rule
- * @Description TODO
+ * @Description
  * @Author 不如叫南安
  * @Date 2020/6/23 9:29
  * @Version 1.0

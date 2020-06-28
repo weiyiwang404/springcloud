@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @ClassName RestTemplateConfig
- * @Description TODO
+ * @Description
  * @Author 不如叫南安
  * @Date 2020/6/28 10:11
  * @Version 1.0

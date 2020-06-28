@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @ClassName PaymentMain9001
- * @Description TODO
+ * @Description
  * @Author 不如叫南安
  * @Date 2020/6/28 9:56
  * @Version 1.0
