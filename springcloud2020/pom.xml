@@ -21,6 +21,7 @@
     <module>spring-cloud-alibaba-payment9001</module>
     <module>spring-cloud-alibaba-payment9002</module>
     <module>spring-cloud-alibaba-order90</module>
+    <module>spring-cloud-alibaba-config-client3377</module>
   </modules>
   <packaging>pom</packaging>
   <!--统一管理jar包版本-->
